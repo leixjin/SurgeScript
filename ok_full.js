@@ -7,6 +7,5 @@ res.data.international = 0;
 res.data.inReview = 0;
 // To String
 body = JSON.stringify(res);
-console.log("---------------------------");
 // Callback
 $done({ body });
